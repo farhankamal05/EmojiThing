@@ -63,12 +63,11 @@ def draw(canvas):
        
     if show_marisa:
         canvas.draw_circle((width-(width/2)/2, (height/2)/2), (width/2 - 50)*scale, 10, "Yellow", "Yellow")
-        canvas.draw_line([width/6,height/3],[width/3,height/3],5*scale,"white")
-        canvas.draw_line([width-(width/6),height/3],[width-(width/3),height/3],5,"black")
+        canvas.draw_line([width-(width/3)-10,height/5],[width-(width/4)-5,height/5],5,"black")
+        canvas.draw_line([width-(width/8),height/5],[width-(width/5),height/5],5,"black")
     #Mouth
-        canvas.draw_circle([width/2,height/2+70],90,2,"black")
-        canvas.draw_polygon([(width/1,height/1),(width/2,height/1),
-        (width/4,5*height/3),(width/4,5*height/3)],2,"yellow","yellow")
+        canvas.draw_circle([width/1.3,height/3],80*scale,2,"black")
+
         
     if show_malachi:
         canvas.draw_circle((width/2, height/2), width/2 - 50, 10, "DarkOrange", "DarkOrange")
@@ -82,7 +81,7 @@ def draw(canvas):
         "DarkOrange", "DarkOrange")
         
     if show_farhan:
-        canvas.draw_circle((width/2, height/2), width/2 - 50, 10, "Yellow", "Yellow")
+        canvas.draw_circle((width/2, height/2), (width/2 - 50)*scale, 10, "Yellow", "Yellow")
         canvas.draw_polygon([(195,86),(242,91),(245,133),(309,143),(328,203),(298,208),(253,186),(242,222),(245,265),(294,273),(326,292),(347,332),(343,385),(303,419),(253,429),(203,424),(165,410),(173,369),(202,373),(211,337),(213,306),(182,277),(139,267),(113,225),(126,153),(159,127),(184,163),(159,197),(197,229),(213,172),(257,319),(253,369),(299,359)], 2, "Black","Green")
         canvas.draw_polygon([(532,78),(483,71),(466,135),(413,150),(394,215),(425,259),(477,274),(479,333),(478,370),(438,378),(439,429),(492,433),(526,427),(564,392),(582,346),(573,279),(524,241),(522,193),(521,167),(565,169),(579,120),(516,121),(452,179),(441,211),(468,244),(481,184),(517,307),(516,361),(553,327)],2,"Black","Green")
         canvas.draw_polygon([(228,469),(304,511),(383,529),(455,503),(512,464),(502,528),(383,581),(283,558),(227,503)],2,"Black","White")
