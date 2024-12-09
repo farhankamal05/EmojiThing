@@ -1,0 +1,8 @@
+        canvas.draw_circle((width/2, height/2), width/2 - 50, 10, "Red", "Red")
+        canvas.draw_circle((240,221), 40, 5, "Black", "Black")
+        canvas.draw_circle((380,221), 40, 5, "Black", "Black")
+        canvas.draw_line((220,322),(263,361), 5, "Black")
+        canvas.draw_line((263,361),(303,398), 5, "Black")
+        canvas.draw_line((303,398),(342,363), 5, "Black")
+        canvas.draw_line((342,363),(378,325), 5, "Black")
+        canvas.draw_circle((220,260), 20, 5, "Blue", "Blue")
